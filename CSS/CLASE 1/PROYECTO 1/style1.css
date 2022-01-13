@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+*{
+    margin:  0 auto;
+    padding: 0 auto;
+   font-family:'Roboto Condensed', sans-serif;
+}
+
+
+.header{
+    background-color: #d682d6;
+    color: greenyellow;
+    padding: 40px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 5px 20px;
+}
+.subtitulo{
+    margin: 30px 20px;
+    text-align: center;
+    color: hotpink;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.articulo{
+    background-color: lightblue;
+    margin: 20px;
+    padding: 15px;
+}
+
+.link-articulo{
+    text-decoration: none;
+    background-color: #8cb9d4;
+    
+}
+
+footer{
+    background-color: #3d3b3bcb;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
