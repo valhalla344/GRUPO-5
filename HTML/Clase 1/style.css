@@ -1,0 +1,26 @@
+*{
+    padding:  0 auto;
+    margin: 0 auto;
+}
+
+.first{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#nav ul{
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#Presentation{
+    text-align: center;
+}
+
+#Presentation h2{
+    color: #57bfc7;
+}
+
