@@ -1,0 +1,69 @@
+
+
+div > a{
+    color: blueviolet;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+div ~ p{
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+}
+.box1{
+    background-color: chocolate;
+    margin: 50px ;
+    padding:  30px 50px;
+    border: 15px solid cyan;
+    border-radius: 30px;
+    
+}
+.box2{   
+    background-color: #7980c7;
+    margin: 100px;
+    padding: 50px;
+    
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(108, 177, 108);
+    padding: .1px;
+}
+
+.colapso{
+    width: 100%;
+    height: 100px;
+    background-color: darkslategray;
+    margin-top: 100px;
+   
+}
+.fondos{
+    width: 100%;
+    height: 500px;
+}
+    
+.imagen-fondo{
+    margin-top: 50px;
+    background-image: url("img/nieve.jpg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat ;
+}
+
+.degradado{
+    background-image: linear-gradient(red,blue,violet);
+}
+.fondo-combinado{
+    margin-top: 50px;
+    background-image: linear-gradient(#c3eca1bb,#e4818ed8),url("img/nieve.jpg.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat ;
+}

@@ -1,0 +1,21 @@
+@import url("img/jase-bloor-oCZHIa1D4EU-unsplash.jpg");
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.hero{
+    height: 100vh;
+    background-image:linear-gradient(rgba(95, 240, 95, 0.5),rgba(150, 219, 231, 0.808)), url("../Proyecto4/img/delfina-iacub-zsgJdHDP4IE-unsplash.jpg") ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
